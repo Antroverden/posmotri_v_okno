@@ -184,11 +184,11 @@ ol {
   width: 194px;
 }
 
-.search-form__submit-button:hover {
+.button:hover {
   text-decoration: underline;
 }
 
-.search-form__submit-button:active {
+.button:active {
   background: #545050;
 }
 
