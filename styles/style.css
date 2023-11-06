@@ -80,7 +80,7 @@ ol {
   flex-direction: column;
   justify-content: end;
   gap: 16px;
-  width: 100%
+  width: 100%;
 }
 
 .content {
@@ -138,12 +138,13 @@ ol {
 }
 
 .result__video {
-  height: 386px;
+  width: 100%;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
+  width: 711px;
 }
 
 .search-form__fieldset {
@@ -152,7 +153,6 @@ ol {
   align-items: flex-start;
   justify-content: space-between;
   height: 49px;
-  width: 212px;
   border: none;
 }
 
@@ -176,7 +176,9 @@ ol {
 }
 
 .result__video-container {
+  height: 386px;
   position: relative;
+  contain: content;
 }
 
 .search-form__submit-button {
