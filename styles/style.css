@@ -18,7 +18,6 @@ html {
 
 .page {
   inline-size: 1200px;
-  height: 800px;
   display: flex;
   block-size: 100%;
   margin: auto;
@@ -48,7 +47,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -105,7 +104,7 @@ ol {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -115,7 +114,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +158,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -201,7 +200,7 @@ ol {
   background-color: transparent;
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -238,7 +237,7 @@ ol {
 .search-form__textfield {
   appearance: none;
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
