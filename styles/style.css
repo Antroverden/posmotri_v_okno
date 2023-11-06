@@ -205,6 +205,11 @@ ol {
   align-self: end;
 }
 
+.button:focus {
+  outline: none;
+  border: 1px solid #FFF;
+}
+
 .more-button {
   width: 399px;
   margin-bottom: 1px;
@@ -213,13 +218,14 @@ ol {
 .search-form__label {
   width: fit-content;
   cursor: pointer;
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #FFF;
+
 }
 
-.search-form__label-text{
-  border: none;
+.search-form__label:focus{
+  outline: none;
 }
+
+
 
 .search-form__label:hover {
   text-decoration: underline;
@@ -232,6 +238,7 @@ ol {
 }
 
 .search-form__textfield {
+  appearance: none;
   color: rgba(255, 255, 255, 0.70);
   font-family: Fira Sans Condensed;
   font-size: 18px;
@@ -241,6 +248,8 @@ ol {
   background-color: transparent;
   border: none;
   width: 225px;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
 }
 
 .search-form__textfield:focus {
