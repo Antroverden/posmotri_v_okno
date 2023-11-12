@@ -153,6 +153,7 @@ ol {
 
 .result__video-container {
   height: 386px;
+  position: relative;
 }
 
 .search-form {
