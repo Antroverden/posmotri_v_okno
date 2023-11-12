@@ -164,8 +164,10 @@ ol {
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 49px;
   border: none;
+  margin-bottom: 5px;
 }
 
 .search-form__fieldset-title {
@@ -232,7 +234,6 @@ ol {
   gap: 5px;
   width: fit-content;
   cursor: pointer;
-  margin-top: 5px;
 }
 
 .search-form__fieldset:first-child .search-form__label:hover {
@@ -278,7 +279,6 @@ ol {
 .search-form__checkbox-list{
   display: flex;
   gap: 15px;
-  margin-bottom: 5px;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after{
