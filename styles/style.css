@@ -228,6 +228,10 @@ ol {
   cursor: pointer;
 }
 
+.search-form__fieldset:first-child .search-form__label:hover {
+  text-decoration: none;
+}
+
 .search-form__label:hover {
   text-decoration: underline;
 }
