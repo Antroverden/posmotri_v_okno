@@ -288,3 +288,12 @@ ol {
   min-block-size: 15px;
   background-color: white;
 }
+
+.content__list::-webkit-scrollbar-thumb {
+  background: #545050dd;
+  border-radius: 100px;
+}
+
+.content__list::-webkit-scrollbar {
+  width:10px;
+}
