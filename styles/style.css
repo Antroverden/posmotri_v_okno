@@ -279,6 +279,7 @@ ol {
 .search-form__checkbox-list{
   display: flex;
   gap: 15px;
+  margin-bottom: 5px;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after{
