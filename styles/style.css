@@ -68,11 +68,15 @@ ol {
 .content__list {
   display: flex;
   height: 298px;
+  width: 416px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
   overflow-y: scroll;
   position: relative;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .result {
@@ -125,6 +129,8 @@ ol {
   width: 194px;
   height: 103px;
   flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__list-item:active,
@@ -139,6 +145,8 @@ ol {
 
 .result__video {
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -178,7 +186,6 @@ ol {
 .result__video-container {
   height: 386px;
   position: relative;
-  contain: content;
 }
 
 .search-form__submit-button {
@@ -242,7 +249,7 @@ ol {
 
 .search-form__textfield {
   appearance: none;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255);
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
